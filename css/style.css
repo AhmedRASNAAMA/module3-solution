@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+.navbar-brand, .navbar-brand:hover {
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto Mono', 'sans-serif';
+    align-items:end;
+}
+
+#header-nav {
+    border-radius: 0;
+    border: 0;
+    background-color: rgb(62, 99, 168);
+}
+
+ul li a {
+    color: white;
+    font-weight: 500;
+}
+div span.glyphicon {
+    color:white;
+    font-size: 16px;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(10, 10, 151);
+}
+.row{
+    margin: 0;
+}
+.block {
+    background-color: rgb(186, 208, 255);
+    padding: 15px;
+    /* height: 700px;  */
+    position: relative;
+}
+#Block1, #Block2, #Block3 {
+    padding: 15px;
+}
+p {
+    font-size: 16px;
+}
+.toTop {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
